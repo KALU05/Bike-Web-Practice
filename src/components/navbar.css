@@ -1,0 +1,31 @@
+/* Móvil por defecto */
+.navbar__toggle {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+}
+
+/* Menú oculto en móvil cuando está cerrado */
+.navbar__menu.is-closed {
+    display: none;
+}
+
+/* Menú visible cuando está abierto */
+.navbar__menu.is-open {
+    display: flex;
+    position: absolute;
+}
+
+/* Desktop: breakpoint >= 768px */
+@media (min-width: 768px) {
+    .navbar__toggle {
+        display: none; /* el botón desaparece en desktop */
+    }
+    .navbar__menu {
+        display: flex !important; /* siempre visible en desktop */
+        flex-direction: row;
+        top: 20px;
+        gap: 1rem;
+    }
+}

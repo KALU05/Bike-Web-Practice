@@ -1,0 +1,26 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+@media (max-width: 600px) {
+    .Header {
+        height: 12%;
+        width: 100%;
+    }
+    .Tittle {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+    }
+}
