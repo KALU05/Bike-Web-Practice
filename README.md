@@ -14,3 +14,7 @@ La navbar se guarda y se muestra correctamente en la version de movil y la versi
 -Pensamientos: Como habia planteado la primera vez que vi esto <<Habria que usar dos elementos para la version movil y desktop aunque significara escribir el doble de codigo>>.
 La otra idea es usar tanto flexbox como el mediaquery para cambiar la disposicion de la navbar en el header en funcion del tamaño de la pantalla pero a decir verdad es mucho mas complicado usar los estados y funciones de react para esto.En pocas palabras lo que habia pensado es mucho mas facil que lo que dice github copilot.
 -Solucion: Mi solucion es usar dos elementos para la version movil y desktop combinado con dos funciones que abran o cierren la navbar en funcion del boton ademas de hacer correciones con flexbox y mediaquery.En otras palabras planeo que hayan dos elementos distintos pero con el mismo contenido excepto el boton el cual uno sera de abrir y otro de cerrar entonces de tal manera seria inutil recurir al useState para manejar el estado de la navbar.
+# Problema 18/12/25 (1)
+El boton de funcionamiento del menu desplegable no funciona correctamente en la version de movil porque solo al segundo click funciona.
+-Pensamientos: Esta vez use un boton con la funcion onClick y deberia ser mejor por lo que no entiendo porque pasa esto.
+-Solucion: Estoy viendola
